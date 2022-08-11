@@ -1,0 +1,17 @@
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 124, 181);
+    height:100% ;
+}
+
+.login{
+    margin-right:10px;
+}

@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    
+}
+
+.update{
+    color: darkblue;
+    margin-right: 15px;
+}
+a{
+    
+    text-decoration: none;
+}
+.delete{
+    color: red;
+}

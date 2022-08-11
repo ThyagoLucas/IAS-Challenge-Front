@@ -1,0 +1,25 @@
+<div>
+    <mat-card>
+        <mat-card-title>Login StoreStock </mat-card-title>
+    
+        <form>
+            <mat-form-field>
+                <input matInput placeholder="Digite seu email" [(ngModel)]="loginDatas.email" name="email" required>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput type="password" placeholder="Digite sua senha" [(ngModel)]="loginDatas.password"  name="password" required>
+            </mat-form-field>
+            
+        </form>
+        <button class="login" mat-raised-button (click)="onSubmit()" color="primary">
+            logar
+        </button>
+        
+        <button class="register" (click)="register()" mat-raised-button >
+            cadastrar-se
+        </button>
+        
+    </mat-card>
+
+</div>
+

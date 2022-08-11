@@ -1,0 +1,26 @@
+.header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header div{
+
+    display:flex;
+    align-items: center;
+ 
+}
+.header .lojinha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: #fff;    
+    
+}
+.logo{
+    margin-left: 10px;
+}
+.register{
+    margin-left: 10px
+}
